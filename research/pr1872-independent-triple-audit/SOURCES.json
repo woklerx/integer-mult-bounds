@@ -1,0 +1,22 @@
+{
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "source_pr": 1872,
+  "source_head": "626ce207ec92a76f70a84843fe4ce3c39f67899d",
+  "files": [
+    {
+      "path": "research/complex-shared-product-triple-seed5a78/README.md",
+      "sha256": "6d4552a040213ecec7add0a9ab5aa8e356d89ad3754396363a7ce5cb733eb422",
+      "git_blob": "11591721e16ad7949cc7f3ccb4d25fc0184df5c0"
+    },
+    {
+      "path": "research/complex-shared-product-triple-seed5a78/CERTIFICATE.json",
+      "sha256": "b25f75d39e2da35225003af8dd2d93c28221767f9dd457db516259951b98f713",
+      "git_blob": "be3d5d15989eae92faeff89a5654aacd0e0482f7"
+    },
+    {
+      "path": "research/complex-shared-product-triple-seed5a78/verify.py",
+      "sha256": "61b39627b49da42d43e692576e69d86e36a6633b73a0a46b6a03a7f8fc3ab35c",
+      "git_blob": "4ad0092a8a8e5f3a12dcc8686790639a03e40799"
+    }
+  ]
+}

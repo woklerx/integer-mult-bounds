@@ -1,0 +1,29 @@
+{
+  "child_calls": 5,
+  "flattening_identity_minor": 4,
+  "formal_dirty_helper_syndrome": "h0 in each output",
+  "formal_inverse": "identity for all helper dirt",
+  "full_F2_states": 4096,
+  "scope": "Formal local schedule and independent exact threshold arithmetic; no physical clean helper or selected occurrence",
+  "status": "PASS_PR1872_INDEPENDENT",
+  "thresholds": [
+    {
+      "e": 0,
+      "minimum_s": 764,
+      "passing_upper_minus_one": "-156904223852743223464638857972331709277188921/1707033912402494608461903884612618566958129210195968",
+      "previous_lower_minus_one": "5482914178228686375618930197703015898186541395/23898474773634924518466654384576659937413808942743552"
+    },
+    {
+      "e": 1,
+      "minimum_s": 765,
+      "passing_upper_minus_one": "-156904223852743223464638857972331709277188921/1707033912402494608461903884612618566958129210195968",
+      "previous_lower_minus_one": "5482914178228686375618930197703015898186541395/23898474773634924518466654384576659937413808942743552"
+    },
+    {
+      "e": 2,
+      "minimum_s": 766,
+      "passing_upper_minus_one": "-156904223852743223464638857972331709277188921/1707033912402494608461903884612618566958129210195968",
+      "previous_lower_minus_one": "5482914178228686375618930197703015898186541395/23898474773634924518466654384576659937413808942743552"
+    }
+  ]
+}

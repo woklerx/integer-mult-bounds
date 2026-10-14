@@ -1,0 +1,10 @@
+{
+  "environment": {
+    "python": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0"
+  },
+  "upstream_registered_replay": "PASS with all declared commands",
+  "independent_replay": "PASS under isolated optimized Python3.12",
+  "initial_environment_errors": [],
+  "omissions": "No selected occurrence, clean physical helper, full supplier, or kappa claim. The threshold preserves the declared average-profile coverage hypothesis; additional physical work is not supplied."
+}

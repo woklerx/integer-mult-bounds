@@ -1,0 +1,24 @@
+{
+  "round": 11,
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32",
+  "selection_nonce": "bb15fe6edef0976a103cec52ef547513",
+  "track": "complex-mechanisms",
+  "task_id": "complex-new-helper-inventory",
+  "scope_status": "changed",
+  "scope": "Intentional independent audit: Required Python3.12 registered replay passes. A new formal-polynomial checker proves the dirty-helper output syndrome and exact inverse, exhausts 4096 F2 states, and independently certifies thresholds764/765/766 with outward fixed-point arithmetic.",
+  "reason": "The catalog construction or quantified-lemma route already has a pending result. This round deliberately contributes independent scoped audit evidence; it does not claim to meet the original new-construction or new-uniform-theorem acceptance gate.",
+  "outcome": "completed independent audit",
+  "remaining_obligations": "No selected occurrence, clean physical helper, full supplier, or kappa claim. The threshold preserves the declared average-profile coverage hypothesis; additional physical work is not supplied.",
+  "open_next_questions": [
+    {
+      "question": "Expose exact common bilinear operand pairs in a selected source representation; event rank labels alone do not identify reusable products.",
+      "why_it_matters": "Resolve the remaining boundary before supplier adoption.",
+      "first_step": "Inspect the named source boundary and formulate a source-pinned test or invariant.",
+      "blocked_by": "No selected occurrence, clean physical helper, full supplier, or kappa claim. The threshold preserves the declared average-profile coverage hypothesis; additional physical work is not supplied."
+    }
+  ],
+  "coordination": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1163#discussioncomment-18924424",
+  "ai_assistance": "Substantial OpenAI Codex assistance",
+  "credit": "Cinna / commdata2338 PR1872; Douglas Colkitt ceiling, Sagar Thakrar coverage, Rohan Arun and Jeremy Kothe selected lineage."
+}
