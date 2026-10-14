@@ -1,0 +1,10 @@
+{
+  "status": "PASS_INDEPENDENT_FRAME_CORE_AUDIT",
+  "numpy": "2.2.6",
+  "subspaces": 16,
+  "models": 60,
+  "feasible_assignments": 5610,
+  "exact_dual_checks": 240,
+  "controls": 2,
+  "scope": "Pinned AST-extracted VE and exact chain dual, exhaustive three-variable F2^3 models; does not certify Graph construction, all words, floating heuristic convergence, or global kappa."
+}

@@ -1,0 +1,12 @@
+{
+  "round": 20,
+  "command": [
+    "C:\\Users\\wilds\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-B",
+    "research/exact-frame-toolkit/selftest.py",
+    "--quick"
+  ],
+  "returncode": 1,
+  "elapsed_seconds": 0.15599999999903957,
+  "scope": "Predecessor replay, not code-disjoint verification"
+}
