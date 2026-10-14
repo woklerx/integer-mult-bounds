@@ -1,0 +1,16 @@
+{
+  "status": "PASS_INDEPENDENT_S3_REGULAR_AUDIT",
+  "layers": [
+    1,
+    12,
+    80,
+    466,
+    2345,
+    10760
+  ],
+  "faithful_states": 13664,
+  "target_minima": 36,
+  "omission_controls": 108,
+  "natural_representation_alias_detected": true,
+  "scope": "Finite two-register S3 model only; no additional-register or physical supplier theorem."
+}
