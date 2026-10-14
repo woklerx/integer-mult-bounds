@@ -1,0 +1,12 @@
+{
+  "source_pr": 1791,
+  "source_head": "00d05a64898571cf57a14310fbcd3507ca99c5ec",
+  "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1791",
+  "credit": "Navinor exact pricing and Wronskode outer arithmetic as used by rtyu193-rgb in PR1791; Rohan Arun selected PR1094 and predecessor lineage.",
+  "classification": "Intentional independent audit of pending work; no claim of original discovery of predecessor result.",
+  "retained_input": {
+    "path": "research/centre-sharing-overhead-budget/RESULT.json",
+    "git_blob": "a3758cbd5f157a85e741912783b7203f4061429c",
+    "sha256": "44fc848b984dbca3aa8ee66898f64f35c305855d0158f1cb4bec0d4d0b28d2b2"
+  }
+}
