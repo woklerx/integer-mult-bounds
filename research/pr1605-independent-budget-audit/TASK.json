@@ -1,0 +1,24 @@
+{
+  "round": 15,
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32",
+  "selection_nonce": "a6e2eeabda5d55cc7d0563544727a447",
+  "track": "complex-mechanisms",
+  "task_id": "complex-rank-shape-decoder",
+  "scope_status": "changed",
+  "scope": "Intentional independent audit: Required Python3.12 registered replay passes. Independent fixed-point log/exp enclosures certify adjacent signs for all50 caps and fully added rank-one overhead limits,1275 strict concentration exchanges,50 block-tax inequalities, and rank16 extra-mass boundary10/11. Wrong idle credit demonstrably gives a false pass.",
+  "reason": "The catalog construction or quantified-lemma route already has a pending result. This round deliberately contributes independent scoped audit evidence; it does not claim to meet the original new-construction or new-uniform-theorem acceptance gate.",
+  "outcome": "completed independent audit",
+  "remaining_obligations": "Independent arithmetic is target-specific; the all-q concavity argument remains a written proof. No physical block decoder, inherited all-size/hosting admission or new kappa.",
+  "open_next_questions": [
+    {
+      "question": "Find a chronological group whose complete additional work fits the narrow rank16 budget; optimistic rank profiles do not construct that group.",
+      "why_it_matters": "Resolve the remaining boundary before supplier adoption.",
+      "first_step": "Inspect the named source boundary and formulate a source-pinned test or invariant.",
+      "blocked_by": "Independent arithmetic is target-specific; the all-q concavity argument remains a written proof. No physical block decoder, inherited all-size/hosting admission or new kappa."
+    }
+  ],
+  "coordination": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1163#discussioncomment-18924424",
+  "ai_assistance": "Substantial OpenAI Codex assistance",
+  "credit": "Arham Tahir PR1605; Douglas Colkitt PR1240, Sagar Thakrar PR1012, Rohan Arun PR1094/1042, Jeremy Kothe, Hao Yan and retained supplier lineage."
+}

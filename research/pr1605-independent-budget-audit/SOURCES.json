@@ -1,0 +1,22 @@
+{
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "source_pr": 1605,
+  "source_head": "488f2ecf1835c6d813e96543656dddf0062fdc9a",
+  "files": [
+    {
+      "path": "research/complex-rank-one-block-budget/RESULT.json",
+      "sha256": "fb7d1baaccc236a8e4eb1417dea76aefb1a423cf9c7677fbfa774b0673e333b6",
+      "git_blob": "7bff1e841d729679d4ce44df8103fab9430e2539"
+    },
+    {
+      "path": "research/complex-rank-one-block-budget/README.md",
+      "sha256": "0abb8872bc413ab875634c7d6922e4cf4f7343ed125d2d1ce089ae47dad983d7",
+      "git_blob": "b6986916ea0557bbb9540427dced85625d7ecbb7"
+    },
+    {
+      "path": "research/complex-rank-one-block-budget/verify.py",
+      "sha256": "b9b6dcbc8a929d449b8933f0cf10e17cdf5ea69a9b3f0894959544f58a431018",
+      "git_blob": "732d065d2f4d0307386d15310eacb85468370088"
+    }
+  ]
+}
