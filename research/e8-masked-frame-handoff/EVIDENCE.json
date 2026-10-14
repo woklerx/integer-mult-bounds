@@ -1,0 +1,8 @@
+{
+  "status": "PASS_MASKED_SPANNING_FRAME_HANDOFF",
+  "frames": 2025,
+  "P104_domains": 1260,
+  "P103_domains": 131040,
+  "witness_sha256": "3ed38279306daf35d1b2dd1c4d58064264e8456a3df9468f9ebc4920e936bd8e",
+  "control": "Dropping a required ordered frame cross-entry admits a nonzero perturbation."
+}
