@@ -1,0 +1,87 @@
+{
+  "status": "PASS_LITERAL_K8_BILL",
+  "source_pr": 1671,
+  "source_head": "ce130d291f5ab6dd801544886a16f62d42d86118",
+  "word_sha256": "c2b294300760e1fd6eeab8c22c4d13e4633dca40e52cac8da0d68163a76e3ca8",
+  "profile": {
+    "1": 2412,
+    "2": 418,
+    "3": 432,
+    "4": 142,
+    "5": 82,
+    "8": 8
+  },
+  "stages": {
+    "A": {
+      "1": 936,
+      "4": 56
+    },
+    "centres": {
+      "8": 8
+    },
+    "B": {
+      "1": 1072,
+      "2": 320,
+      "3": 354,
+      "4": 84,
+      "5": 26
+    },
+    "early-cleanup": {
+      "1": 78,
+      "2": 32,
+      "3": 14
+    },
+    "final-climbs": {
+      "1": 326,
+      "2": 66,
+      "3": 64,
+      "4": 2,
+      "5": 56
+    }
+  },
+  "gate_events": 5413,
+  "endpoint_mass": 5522,
+  "centre_mass": 64,
+  "paid_climbs": 3494,
+  "omission_reached": false,
+  "rank_mass": 5586,
+  "semantic_controls": [
+    {
+      "mutation": "source-operand",
+      "profile": {
+        "1": 2411,
+        "2": 418,
+        "3": 432,
+        "4": 142,
+        "5": 82,
+        "8": 8
+      },
+      "rejected": true
+    },
+    {
+      "mutation": "centre-charge",
+      "profile": {
+        "1": 2412,
+        "2": 418,
+        "3": 432,
+        "4": 142,
+        "5": 82
+      },
+      "rejected": true
+    },
+    {
+      "mutation": "final-climbs",
+      "profile": {
+        "1": 2086,
+        "2": 352,
+        "3": 368,
+        "4": 140,
+        "5": 26,
+        "8": 8
+      },
+      "rejected": true
+    }
+  ],
+  "incomparable_equal_dimension_control": true,
+  "limits": "Independent literal baseline invoice and telescoping-mass check; not an independent proof of the complete free-frame domains or dual inequalities. Supplied primary and independent dual checkers are replayed separately."
+}

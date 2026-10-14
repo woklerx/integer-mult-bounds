@@ -1,0 +1,7 @@
+{
+  "source_pr": 1671,
+  "source_head": "ce130d291f5ab6dd801544886a16f62d42d86118",
+  "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1671",
+  "credit": "Gareth Davidson PR1671; Navinor retained X4 frame method; selected local-word and pricing authors credited in predecessor.",
+  "classification": "Intentional independent audit of pending work; no claim of original discovery of predecessor result."
+}
