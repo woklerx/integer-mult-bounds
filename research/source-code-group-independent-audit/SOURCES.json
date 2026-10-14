@@ -1,0 +1,13 @@
+{
+  "base": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "predecessor_pr": 1862,
+  "predecessor_head": "7649d9ceecec949541bec4bbde5929344166ba59",
+  "files": {
+    "research/native-source-codes/PROOF.md": {
+      "head": "7649d9ceecec949541bec4bbde5929344166ba59",
+      "sha256": "8c62215f88ff4fcedb64d3761553d16a957b5520e7b8806fdd28ff41816c8972",
+      "git_blob": "76f61d5ced52face574a1cd9d877147f9bb31663"
+    }
+  },
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32"
+}

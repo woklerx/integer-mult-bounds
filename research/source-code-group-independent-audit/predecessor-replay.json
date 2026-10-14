@@ -1,0 +1,17 @@
+{
+  "round": 18,
+  "command": [
+    "C:\\Users\\wilds\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-I",
+    "-O",
+    "-B",
+    "research/native-source-codes/replay.py",
+    "--repo",
+    ".",
+    "--out",
+    "F:\\RANDOM CODEX\\integer-mult-20-rounds-20261014-b\\round-18-delivery\\cold-replay"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 26.061999999999898,
+  "scope": "Predecessor replay, not code-disjoint verification"
+}

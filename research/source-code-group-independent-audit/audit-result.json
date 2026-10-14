@@ -1,0 +1,14 @@
+{
+  "status": "PASS_INDEPENDENT_DYADIC_SOURCE_GROUP",
+  "base_geometries": 64,
+  "parameter_cases": 1728,
+  "singular_RK_base_geometries": 12,
+  "singular_RK_minus_I_base_geometries": 12,
+  "singular_G_cases": 384,
+  "dyadic_inverse_cases": 1104,
+  "controls": [
+    "odd determinant rational inverse is not dyadic",
+    "omitted RP identity breaks construction"
+  ],
+  "scope": "Independent exact low-dimensional algebra stress test, not a proof by finite enumeration. General symbolic proof and full 112-field cold replay are separately credited to PR1862."
+}
