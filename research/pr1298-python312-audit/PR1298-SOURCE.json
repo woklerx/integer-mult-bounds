@@ -1,0 +1,36 @@
+{
+  "head": "e76026571dbfa7299bf474b941c9abeb5bd556b3",
+  "base": "bce54fb3f895cbe5cd4c0eb477c3afeed100190f",
+  "files": [
+    {
+      "path": "scripts/choose_research_task.py",
+      "sha256": "f1af1e70858ab1d033ce20ee1968201bc592eb9e3fd05ab8ad78c842c0b028d1",
+      "git_blob": "695639622a283190948c4187bdbb41997e6e43d7"
+    },
+    {
+      "path": "scripts/find_overlap.py",
+      "sha256": "5be1af61e4e35f68fd77c97c54879888438f4682e6d61be614d95e32db0f0bbc",
+      "git_blob": "d361b5d8b0f6947cf48c7d2442ea6e9ef28ddd4e"
+    },
+    {
+      "path": "scripts/new_research_package.py",
+      "sha256": "e2fd3fa6d98c9a73b04e91e48c55b12e4587450407d4d00e24818b9e6265fc08",
+      "git_blob": "636a9dcbc509f42e1cf783302dd0744852742cfc"
+    },
+    {
+      "path": "scripts/research_package.py",
+      "sha256": "ce2ffbb92adc1f9ea95a73e8308f7029878967446d2a5e1af1070992f601f514",
+      "git_blob": "2a2c2e67a0bd42d4e142e6edf8b80ea8bcefa320"
+    },
+    {
+      "path": "tests/test_research_assignment.py",
+      "sha256": "e89c78e51a0dcba5ebea3623781abf6cab6efda90cf9f2417815c6fadddfa6e8",
+      "git_blob": "a9444f17ece4d15340db7ba81c0ce5f3fab8635b"
+    },
+    {
+      "path": "tests/test_research_onboarding.py",
+      "sha256": "cc79f639e060564a7af5cd43f8dc5e11f7caed9cc53ef4435a95e0134b347713",
+      "git_blob": "391c2d849a35b9d65439ad3226b8ff79e82ce46d"
+    }
+  ]
+}

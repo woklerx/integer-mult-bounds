@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "task_id": "portable-replay",
+  "priority_revision": 2,
+  "base_commit": "bce54fb3f895cbe5cd4c0eb477c3afeed100190f",
+  "original_card": {
+    "id": "portable-replay",
+    "question": "Can one reproducible environment or artifact-comparison failure be repaired?",
+    "starting_points": [
+      "research/gzip-container-reproducibility/README.md",
+      "docs/ci-verification.md"
+    ],
+    "methods": [
+      "Reproduce one portability failure and add a minimal cross-environment fix.",
+      "Audit one canonical-payload comparison for omitted proof-relevant fields."
+    ],
+    "acceptance_gate": "Preserve immutable source hashes and proof-relevant content; a different compressed byte stream alone is not a mathematical mismatch.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read the gzip-container reproducibility examples and distinguish frozen source bytes from regenerated payloads.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "Reproduce one specific mismatch or audit one canonical comparison for omitted proof-relevant fields.",
+    "bottleneck_link": "Portable exact checks prevent environment failures from blocking valid contributions.",
+    "allowed_variations": [
+      "One interpreter/version mismatch or one payload field comparison."
+    ],
+    "scope_change_triggers": [
+      "Removing immutable-source pins because generated compressed bytes differ."
+    ],
+    "overlap_terms": [
+      "gzip container",
+      "reproducibility",
+      "canonical payload"
+    ]
+  },
+  "scope_status": "refined",
+  "actual_scope": "Independently replay PR1298 on Windows CPython 3.12, including the previously skipped registered-package success/failure test and source-reversion controls.",
+  "scope_change_reason": "The observed portability failures already have PR1298; corroborate its unrun Python3.12 obligation instead of duplicating its patch.",
+  "bottleneck_link": "Source-bound portable onboarding/replay reduces friction for supplier research; this is verifier evidence, not a new mathematical bound.",
+  "budget_minutes": 60,
+  "stop_rule": "Stop after full pinned suite and two predecessor-reversion controls; no supplier replay or patch expansion.",
+  "outcome": "completed",
+  "evidence": "Run verify.py with Python3.12; exact pinned overlay, full existing suite and two actual regression reversions.",
+  "author": "woklerx with substantial OpenAI Codex assistance",
+  "ai_assistance": "Substantial OpenAI Codex assistance including automated execution and analysis. No independent human review.",
+  "open_questions": [
+    {
+      "question": "Does this exact patch pass Linux and macOS?",
+      "why_it_matters": "Cross-platform changes need matching environment evidence.",
+      "first_step": "Run the pinned suite on those hosts.",
+      "blocked_by": "This audit has only Windows execution available."
+    }
+  ]
+}

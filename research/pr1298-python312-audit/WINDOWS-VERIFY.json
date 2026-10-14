@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "CONTRIBUTORS.md",
+    "autoresearch.md",
+    "certificates/selected-result.json",
+    "docs/audit.md",
+    "docs/ci-verification.md",
+    "docs/research/agent-task-catalog.json",
+    "docs/research/current-status.md",
+    "docs/research/pr-ledger.md",
+    "docs/research/research-priority-log.md",
+    "research/bit-three-register-lower-bound/README.md",
+    "research/complex-decoder-field-extension-seed44/README.md",
+    "research/complex-decoder-field-extension-seed44/verify.py",
+    "research/complex-frame-pair-decoders/README.md",
+    "research/gzip-container-reproducibility/README.md",
+    "research/heterogeneous-owner-assembly/README.md",
+    "research/hyperplane-end-lean/PROOF.md",
+    "research/owner-boundary-audit/README.md",
+    "research/owner-boundary-audit/verify.py",
+    "research/r439-bsection-stars-seed01/README.md",
+    "research/r439-bsection-stars-seed01/verify.py",
+    "research/r439-copy-path-sharing-barrier/README.md",
+    "research/universal-connector-boundary/README.md",
+    "research/universal-connector-boundary/verify.py",
+    "scripts/choose_research_task.py",
+    "scripts/find_overlap.py",
+    "scripts/new_research_package.py",
+    "scripts/research_baseline.py",
+    "scripts/research_package.py",
+    "scripts/run_isolated_tests.py",
+    "scripts/verify_replay_coverage.py",
+    "scripts/verify_selected_result.py",
+    "tests/test_research_assignment.py",
+    "tests/test_research_onboarding.py"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "PR1298 pinned Python3.12 full suite and source reversion controls"
+    }
+  ]
+}
