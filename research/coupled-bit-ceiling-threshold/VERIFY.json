@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "docs/research/community-efficient500-review.md",
+    "research/community-frontier1094-audit/ASSEMBLY.json",
+    "research/complex-sw4-frame8/code/assemble.py",
+    "research/complex-sw4-frame8/vendor/main/research/complex-k492-owner-repair/vendor/multicold/engines/outer.py"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Closed-form oracle, candidate comparison,47 outer slacks,switch and strict-grid controls"
+    }
+  ]
+}

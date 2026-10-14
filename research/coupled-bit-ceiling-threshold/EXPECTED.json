@@ -1,0 +1,21 @@
+{
+  "status": "PASS_CORRECTED_PR1348_OUTER_AUDIT",
+  "upstream_head": "74768ab408b1ae2ce2c7094b49457a86fcb06e94",
+  "comparisons": 315,
+  "outer_cases": 6,
+  "strict_constraints_per_case": 47,
+  "corrected_threshold": "1733427039589844234749/999999999999999999999999",
+  "retired_threshold": "1733427039589844234749/998266572960410155765251",
+  "source_bit_endpoint": "1733427039589844234749/1000000000000000000000000",
+  "selected_kappa": "836330098538459/500000000000000000",
+  "controls": [
+    "below/equal/above min switch",
+    "retired double conversion differs",
+    "grid plateau does not imply bit branch",
+    "strict grid integer boundary",
+    "omitted bootstrap round",
+    "zero beta",
+    "omitted shave"
+  ],
+  "scope": "Corrected T2 binding and outer reduction only; no coverage threshold tables or supplier replay."
+}

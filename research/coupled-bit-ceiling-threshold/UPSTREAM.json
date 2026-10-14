@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/CrocSwap/integer-mult-bounds",
+  "pull_request": 1348,
+  "commit": "74768ab408b1ae2ce2c7094b49457a86fcb06e94",
+  "path": "research/complex-coverage-law-relief/verify.py",
+  "sha256": "102b7e0cd5b29fc5dcee533027fec2d9e3812b629a02ac8469790153a701b017",
+  "git_blob": "ab287fa935d579ddee18f09aff276ad89eb60b76",
+  "author": "Navinor, with opencode assistance; Apache-2.0"
+}

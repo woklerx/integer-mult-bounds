@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "task_id": "supplier-boundary-audit",
+  "priority_revision": 3,
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "original_card": {
+    "id": "supplier-boundary-audit",
+    "question": "Does one selected supplier obligation follow from its actual source-bound checks?",
+    "starting_points": [
+      "certificates/selected-result.json",
+      "research/owner-boundary-audit/README.md"
+    ],
+    "methods": [
+      "Trace one hypothesis through the source, checker and complete caller.",
+      "Construct one semantically invalid but superficially well-formed fixture and test rejection."
+    ],
+    "acceptance_gate": "Pin the current sources and one obligation; the historical owner audit is an example, not evidence of a current bug.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "research/owner-boundary-audit/verify.py"
+      ],
+      "expected": "PASS_PR626_NEXT_TOUCH_BOUNDARY_AUDIT",
+      "inspect": "Identify why the timing-only omission passes but the full production controller still rejects it.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "Choose one current supplier obligation and trace whether its acceptance depends on an independent check.",
+    "bottleneck_link": "Closing a current acceptance gap or proof obligation strengthens reliability even without changing kappa.",
+    "allowed_variations": [
+      "Audit one named current condition using a new semantic counterexample."
+    ],
+    "scope_change_triggers": [
+      "Reporting the historical timing-only diagnostic as a new current acceptance bug."
+    ],
+    "overlap_terms": [
+      "owner boundary",
+      "bridge omission",
+      "hosting"
+    ]
+  },
+  "scope_status": "refined",
+  "actual_scope": "Independent audit of corrected T2 binding and exact outer reduction at PR1348 head 74768ab408b1ae2ce2c7094b49457a86fcb06e94",
+  "scope_change_reason": "The requested repair is already present; independently corroborate it instead of submitting a duplicate.",
+  "bottleneck_link": "Correct unit conversion screens changed complex coverage laws against the bit supplier.",
+  "budget_minutes": 60,
+  "stop_rule": "Closed-form comparisons and all47 outer constraints at six boundary fixtures.",
+  "outcome": "independent-corroboration",
+  "evidence": "EXPECTED.json and verify.py",
+  "author": "woklerx with substantial OpenAI Codex assistance",
+  "ai_assistance": "Substantial OpenAI Codex assistance; no independent human review.",
+  "open_questions": [
+    {
+      "question": "Are the corrected coverage-law relief tables independently reproducible?",
+      "why_it_matters": "This audit covers only T2 conversion and outer binding.",
+      "first_step": "Certify the tables through an independent exact moment enclosure.",
+      "blocked_by": "Outside this narrow review."
+    }
+  ],
+  "selection_seed": "2f0efaa8fa3803a3fdcd3b9f7f9705db"
+}
