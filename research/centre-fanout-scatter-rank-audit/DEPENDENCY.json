@@ -1,0 +1,7 @@
+{
+  "source_pr": 1708,
+  "source_head": "4d163c04c0980c5b0e9092fbd5864c7cfadc125d",
+  "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1708",
+  "credit": "Cinna Davis PR1708; selected Rohan Arun PR1094 and retained gauge44-slots-t16 provider lineage.",
+  "classification": "Intentional independent audit of pending work; no claim of original discovery of predecessor result."
+}
