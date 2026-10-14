@@ -1,0 +1,70 @@
+{
+  "disjoint_positive_cases": [
+    {
+      "bits": 4,
+      "direction": -1
+    },
+    {
+      "bits": 4,
+      "direction": 1
+    },
+    {
+      "bits": 8,
+      "direction": -1
+    },
+    {
+      "bits": 8,
+      "direction": 1
+    },
+    {
+      "bits": 16,
+      "direction": -1
+    },
+    {
+      "bits": 16,
+      "direction": 1
+    }
+  ],
+  "disposition": "Known finding independently corroborated; no new PR recommended",
+  "exact_raw_witness": {
+    "source_after": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "15/16",
+        "0"
+      ]
+    ],
+    "source_before": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "target_after": [
+      [
+        "-5/16",
+        "0"
+      ],
+      [
+        "-5/16",
+        "0"
+      ]
+    ]
+  },
+  "live_caller_guard_rejects_rows": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "prior_head": "0b4f514c60d9bc7786415d7cbc24754f24d6dc3b",
+  "prior_pr": 673,
+  "status": "PASS_KNOWN_PHASE_ALIAS_CORROBORATION"
+}
