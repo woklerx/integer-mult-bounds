@@ -1,0 +1,35 @@
+{
+  "status": "PASS_INDEPENDENT_TWISTED_CONTRACT_AUDIT",
+  "GL2": 6,
+  "GL3": 168,
+  "valid_parameter_tuples": 4032,
+  "compensation_failures": 12096,
+  "wrong_cleanup_failures": 168336,
+  "omitted_twist_failures": 840,
+  "missing_source_response_mutation_rejected": true,
+  "stale_cleanup_example": {
+    "T": [
+      1,
+      3
+    ],
+    "U": [
+      1,
+      2,
+      4
+    ],
+    "K": 3,
+    "N": 2,
+    "stale_cleanup": [
+      1,
+      2,
+      4
+    ],
+    "columns": [
+      9,
+      6,
+      4,
+      8
+    ]
+  },
+  "scope": "Scalar H2-tw/H4-tw/K-tw block equations only. No new chronological/native bridge; full-word replay recorded separately."
+}

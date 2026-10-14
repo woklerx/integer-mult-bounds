@@ -1,0 +1,13 @@
+{
+  "base": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "predecessor_pr": 1868,
+  "predecessor_head": "6b222d01fee072bcd3a680e6a96ae7d22e13bcac",
+  "files": {
+    "research/r439-twisted-star-absorption-seed02/PROOF.md": {
+      "head": "6b222d01fee072bcd3a680e6a96ae7d22e13bcac",
+      "sha256": "0dbfa22a82647219598d6b995244cc0963f32ba912b4f2eae97d894647be28ef",
+      "git_blob": "16c44dc821b259cfdd2be8cff09badfd4ad9107d"
+    }
+  },
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32"
+}

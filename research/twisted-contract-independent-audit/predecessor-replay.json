@@ -1,0 +1,13 @@
+{
+  "round": 17,
+  "command": [
+    "C:\\Users\\wilds\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-B",
+    "scripts/research_package.py",
+    "--package",
+    "research/r439-twisted-star-absorption-seed02"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 101.14099999999962,
+  "scope": "Predecessor replay, not code-disjoint verification"
+}
