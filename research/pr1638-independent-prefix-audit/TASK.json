@@ -1,0 +1,24 @@
+{
+  "round": 14,
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32",
+  "selection_nonce": "93678d8ec4566eb250e36abf543935bf",
+  "track": "adversarial-audit",
+  "task_id": "uniform-transfer-audit",
+  "scope_status": "changed",
+  "scope": "Intentional independent audit: Required Python3.12 registered replay passes. A separately written integer-significand checker validates65600 candidate cells and646656 conservative endpoint inequalities through p12, retaining six-bit incoming warm-up precision. It reproduces generic-state zero/one/two-guard counterexamples.",
+  "reason": "The catalog construction or quantified-lemma route already has a pending result. This round deliberately contributes independent scoped audit evidence; it does not claim to meet the original new-construction or new-uniform-theorem acceptance gate.",
+  "outcome": "completed independent audit",
+  "remaining_obligations": "Exact finite cells corroborate the written quantified induction; they are not the all-precision proof. Seeded two-guard correctness, full root/recovery caller, physical tape and theorem formalization remain open.",
+  "open_next_questions": [
+    {
+      "question": "Derive a reachable-state invariant for the actual warm-up before deciding seeded two guards; additional finite passes alone cannot settle it.",
+      "why_it_matters": "Resolve the remaining boundary before supplier adoption.",
+      "first_step": "Inspect the named source boundary and formulate a source-pinned test or invariant.",
+      "blocked_by": "Exact finite cells corroborate the written quantified induction; they are not the all-precision proof. Seeded two-guard correctness, full root/recovery caller, physical tape and theorem formalization remain open."
+    }
+  ],
+  "coordination": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1163#discussioncomment-18924424",
+  "ai_assistance": "Substantial OpenAI Codex assistance",
+  "credit": "ToikY PR1638; Hanson Sun PR1528; retained OpenAI manuscript and classical Brent reductions; Douglas Colkitt repository guidance."
+}

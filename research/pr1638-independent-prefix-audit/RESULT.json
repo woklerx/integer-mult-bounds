@@ -1,0 +1,81 @@
+{
+  "candidate_cells": 65600,
+  "endpoint_checks": 646656,
+  "guard_controls": [
+    {
+      "c": "1",
+      "guards": 0,
+      "output": "3/4",
+      "x": "49/64"
+    },
+    {
+      "c": "11/8",
+      "guards": 1,
+      "output": "5/8",
+      "x": "35/64"
+    },
+    {
+      "c": "11/8",
+      "guards": 2,
+      "output": "5/8",
+      "x": "35/64"
+    }
+  ],
+  "maxima": [
+    {
+      "maximum_normalized_stage_residual": "9/16",
+      "p": 1
+    },
+    {
+      "maximum_normalized_stage_residual": "9/16",
+      "p": 2
+    },
+    {
+      "maximum_normalized_stage_residual": "9/16",
+      "p": 3
+    },
+    {
+      "maximum_normalized_stage_residual": "9/16",
+      "p": 4
+    },
+    {
+      "maximum_normalized_stage_residual": "9/16",
+      "p": 5
+    },
+    {
+      "maximum_normalized_stage_residual": "9/16",
+      "p": 6
+    },
+    {
+      "maximum_normalized_stage_residual": "9/16",
+      "p": 7
+    },
+    {
+      "maximum_normalized_stage_residual": "9/16",
+      "p": 8
+    },
+    {
+      "maximum_normalized_stage_residual": "9/16",
+      "p": 9
+    },
+    {
+      "maximum_normalized_stage_residual": "9/16",
+      "p": 10
+    },
+    {
+      "maximum_normalized_stage_residual": "9/16",
+      "p": 11
+    },
+    {
+      "maximum_normalized_stage_residual": "9/16",
+      "p": 12
+    }
+  ],
+  "precision_range": [
+    1,
+    12
+  ],
+  "scope": "Exact finite true-input cells and admitted-state controls; does not settle seeded two guards or formalize uniform theorem",
+  "stage_cells": 323328,
+  "status": "PASS_PR1638_INDEPENDENT_PREFIX"
+}

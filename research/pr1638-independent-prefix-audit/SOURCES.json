@@ -1,0 +1,22 @@
+{
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "source_pr": 1638,
+  "source_head": "394b90ee7fdaedd1f666a78a442127be3da17810",
+  "files": [
+    {
+      "path": "research/reciprocal-directed-guards/PROOF.md",
+      "sha256": "d7f3fca062f67a18a5d01c2a910bbbbc8608d69a22d7ccceffd27b5cc5a66c93",
+      "git_blob": "22318bb3fb33efc88e86c900d02c233838a5bc87"
+    },
+    {
+      "path": "research/reciprocal-directed-guards/CERTIFICATE.json",
+      "sha256": "25ddb6af3ed0945ac5aeb5dbf236381d85aace8765769e139a5cafc76c1ec7b6",
+      "git_blob": "f021d8d89f374cab0df3143a7545bee07b286a77"
+    },
+    {
+      "path": "research/reciprocal-directed-guards/verify.py",
+      "sha256": "5db1808129c80e9b9a647fb9890e8c677ba7df477cf60dcfdbb8e70e7a5428bc",
+      "git_blob": "f533ca2a5a57ad07ba81e02d7ae6a2c96db5aee2"
+    }
+  ]
+}
