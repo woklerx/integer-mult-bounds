@@ -1,0 +1,9 @@
+SITE 1 cmp $WD/base.json.gz $BASE
+usage: helper spaces 'quoted.py [-h]
+                                (--compare GENERATED REFERENCE | --work WORK)
+helper spaces 'quoted.py: error: unrecognized arguments: spaces ' oagabhkw/base.json.gz F:/RANDOM CODEX/integer-mult-20-rounds-20261014-b/worker-c/research/pr1559-path-payload-audit/payload spaces ' oagabhkw/reference 0.gz
+
+SITE 2 cmp $WD/tuned.json.gz $WORD
+usage: helper spaces 'quoted.py [-h]
+                                (--compare GENERATED REFERENCE | --work WORK)
+helper spaces 'quoted.py: error: unrecognized arguments: spaces ' oagabhkw/tuned.json.gz F:/RANDOM CODEX/integer-mult-20-rounds-20261014-b/worker-c/research/pr1559-path-payload-audit/payload spaces ' oagabhkw/reference 1.gz

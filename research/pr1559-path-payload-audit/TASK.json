@@ -1,0 +1,24 @@
+{
+  "round": 13,
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32",
+  "selection_nonce": "6fae08037a623a10f8311ba8168677b0",
+  "track": "verifier-engineering",
+  "task_id": "portable-replay",
+  "scope_status": "refined",
+  "scope": "Intentional independent audit: The pinned adapter leaves comparison operands unquoted. Git Bash on the actual spaced checkout causes8 focused representation failures. The bounded reproducer confirms both adapted sites reject spaced paths; the supplied quote patch passes both. Independent CLI fixtures accept24 equivalent payload cases and reject20 changed/corrupt cases under normal and optimized Python.",
+  "reason": "Current overlap contains the construction or proof; independently check its stated obligations instead of duplicating it.",
+  "outcome": "completed independent audit",
+  "remaining_obligations": "Only two adapted comparison sites are repaired. The inherited full native shell pipeline has other path assumptions and was not run or claimed Windows portable. No frozen source is edited. UPSTREAM-FIX.patch targets pending PR1559, not main.",
+  "open_next_questions": [
+    {
+      "question": "Apply the small patch to PR1559 and expand its test to quote operand paths explicitly; then decide whether the rest of the shell pipeline should promise paths with spaces.",
+      "why_it_matters": "Resolve the remaining boundary before supplier adoption.",
+      "first_step": "Inspect the named source boundary and formulate a source-pinned test or invariant.",
+      "blocked_by": "Only two adapted comparison sites are repaired. The inherited full native shell pipeline has other path assumptions and was not run or claimed Windows portable. No frozen source is edited. UPSTREAM-FIX.patch targets pending PR1559, not main."
+    }
+  ],
+  "coordination": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1163#discussioncomment-18924424",
+  "ai_assistance": "Substantial OpenAI Codex assistance",
+  "credit": "Hanson Sun PR1559; DreamingOfClouds PR589/545, eumemic PR555/493; Maxime Fleury/Antoine Olivier gzip-payload convention."
+}

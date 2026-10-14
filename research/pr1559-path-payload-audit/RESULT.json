@@ -1,0 +1,19 @@
+{
+  "changed_or_corrupt_CLI_rejects": 20,
+  "equivalent_payload_CLI_accepts": 24,
+  "quoted_comparison_arguments": "passes both sites",
+  "scope": "Focused payload adapter and shell sites only; no full native selected replay or Windows shell portability claim beyond tested Git Bash",
+  "status": "PASS_PR1559_PATH_PAYLOAD_AUDIT",
+  "upstream_adapted_shell_space_paths": [
+    {
+      "original": "rejects",
+      "quoted": "passes",
+      "site": "cmp $WD/base.json.gz $BASE"
+    },
+    {
+      "original": "rejects",
+      "quoted": "passes",
+      "site": "cmp $WD/tuned.json.gz $WORD"
+    }
+  ]
+}

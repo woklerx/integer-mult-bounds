@@ -1,0 +1,32 @@
+{
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "source_pr": 1559,
+  "source_head": "c4f8af1dcf9fc2317c893b6b250007ded5ef879f",
+  "files": [
+    {
+      "path": "research/bit589-gzip-replay/replay.py",
+      "sha256": "18a79d99c02b2cf9cca6c314b38847848adb25b479e0e361d41d5b68201a8e5d",
+      "git_blob": "8ddd63e484cab336daad3039ffbaca632ab9a668"
+    },
+    {
+      "path": "research/bit589-gzip-replay/verify.py",
+      "sha256": "820abcba9ecf0e80569e9ef79bed0f0f7ed65e13f96295a29693fb98bfd10962",
+      "git_blob": "384e965d5ea63ce0ee32518a3434f6b8386eb772"
+    },
+    {
+      "path": "research/e8-bit-p111-tuned/tune/verify.sh",
+      "sha256": "efb1051d3e2c6119574a29a8e4efbe316307b5901d05079d029e12fae9ff1fb1",
+      "git_blob": "92310cbc220ece46c72f2131ddcc8d802bd35c56"
+    },
+    {
+      "path": "research/e8-bit-p111-tuned/data/bitE8mut-p111.json.gz",
+      "sha256": "1bc3c53d4baf4927c6a00c339ea3975516471a48074d4d97c6addaded2a4d858",
+      "git_blob": "bdbb95aa970647bd52895c120b494f0f591f3f87"
+    },
+    {
+      "path": "research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+      "sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+      "git_blob": "85a4499bf9e4911a705d50567a2c2ef6cf23739a"
+    }
+  ]
+}
