@@ -1,0 +1,52 @@
+{
+  "status": "PASS_FULL_SELECTED_MANIFEST_AUDIT",
+  "source_pr": 1864,
+  "source_head": "3d54b62bee5e7e2027aaffd9a30c31adc3b84c0a",
+  "inventory_files": 1579,
+  "package_roots": 13,
+  "copied_files": 1626,
+  "copied_bytes": 67081140,
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32",
+  "manifest_sha256": "79b3de5db3dbcb9829789ba58e9e45758926031e2a7d80667a08429d369be53b",
+  "mutation_target": "research/complex-sw4-frame8/code/assemble.py",
+  "cases": [
+    {
+      "case": "all original 1579 inventory files",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "case": "source changed without updating manifest",
+      "status": "rejected",
+      "error": "Selected package inventory or bytes changed"
+    },
+    {
+      "case": "source and inventory coherently changed; record unchanged",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "case": "hypothetical existing supplement anchor rejects coherent rewrite",
+      "status": "rejected",
+      "error": "Selected proof supplement changed: research/community-frontier1094-audit/SELECTED-SOURCE.json"
+    },
+    {
+      "case": "hypothetical supplement anchor accepts original snapshot",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "case": "certificate bytes changed",
+      "status": "rejected",
+      "error": "Selected certificate bytes changed"
+    },
+    {
+      "case": "primary proof bytes changed",
+      "status": "rejected",
+      "error": "Selected proof supplement changed: docs/research/community-batch1099-review.md"
+    }
+  ],
+  "live_source_hashes_unchanged": true,
+  "added_evidence": "The real selected 1579-file inventory reproduces the predecessor minimal fixture. An existing proof_supplements entry anchors the manifest without a new verifier field; demonstrated only on a private hypothetical record.",
+  "limits": "Fast integrity check only. No cold replay, theorem audit, attacker model, selected record change or claim of corruption in actual selected files."
+}

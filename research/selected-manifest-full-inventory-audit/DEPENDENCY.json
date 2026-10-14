@@ -1,0 +1,7 @@
+{
+  "source_pr": 1864,
+  "source_head": "3d54b62bee5e7e2027aaffd9a30c31adc3b84c0a",
+  "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1864",
+  "credit": "Aaron Wang/Navinor PR1864 binding-coverage audit; Douglas Colkitt selected-record checker and selected construction authors.",
+  "classification": "Intentional independent audit of pending work; no claim of original discovery of predecessor result."
+}

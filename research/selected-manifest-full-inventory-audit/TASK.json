@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "task_id": "independent-moment",
+  "priority_revision": 3,
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "original_card": {
+    "id": "independent-moment",
+    "question": "Can one selected pricing or assembly claim be checked by a genuinely independent exact implementation?",
+    "starting_points": [
+      "certificates/selected-result.json"
+    ],
+    "methods": [
+      "Reconstruct the rank ledger from original operations rather than trusting its aggregate.",
+      "Implement certified moment inequalities through a different exact enclosure method."
+    ],
+    "acceptance_gate": "Demonstrate independence, source binding, positive cases and semantic failure controls.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Record the selected certificate and complex_profile rather than taking a PR headline as input.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "Recompute one small part of the ledger or one certified enclosure using an independent implementation.",
+    "bottleneck_link": "Independent pricing prevents unsupported frontier claims and can reveal genuine accounting slack.",
+    "allowed_variations": [
+      "Reconstruct either a source ledger or a numeric enclosure with a different method."
+    ],
+    "scope_change_triggers": [
+      "Importing the primary function and calling its output independent verification."
+    ],
+    "overlap_terms": [
+      "independent moment",
+      "rank histogram",
+      "exact enclosure"
+    ]
+  },
+  "scope_status": "changed",
+  "actual_scope": "Corroborate PR1864 on the full selected 1579-file inventory and demonstrate the existing proof_supplements mechanism as a hypothetical manifest anchor.",
+  "scope_change_reason": "Assignment changes from numeric moment reconstruction to its source-integrity boundary; this is explicitly a prerequisite audit, not a pricing claim.",
+  "bottleneck_link": "Independent source-bound evidence makes a paid recursive-interface claim reviewable; this package does not change the selected supplier.",
+  "budget_minutes": 60,
+  "stop_rule": "One pinned claim, one independent implementation and explicit failure controls; no expansion into global supplier admission.",
+  "outcome": "completed",
+  "evidence": "RESULT.json and the reproducible local verifier; source supplied replays are reported separately.",
+  "author": "woklerx",
+  "ai_assistance": "Substantial OpenAI Codex assistance in research, implementation, verification and writing; no independent human review claimed.",
+  "open_questions": [
+    {
+      "question": "Should a maintainer anchor SELECTED-SOURCE.json through proof_supplements or a new explicit digest field?",
+      "why_it_matters": "Determines whether the audited local evidence can support a reviewed supplier or a better integrity boundary.",
+      "first_step": "Reconcile all packages that pin the selected record, then review an authorized record update using the demonstrated exact manifest digest.",
+      "blocked_by": "Modifying the selected record requires maintainer authorization and impacts downstream source pins."
+    }
+  ],
+  "selection_nonce": "64ffe23f877907cb30f997967ed55c58",
+  "coordination": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1163#discussioncomment-18924424"
+}
