@@ -1,0 +1,13 @@
+{
+  "round": 19,
+  "command": [
+    "C:\\Users\\wilds\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-B",
+    "scripts/research_package.py",
+    "--package",
+    "research/single-connector-cap-obstruction-seed653bd5"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 10.67200000000048,
+  "scope": "Predecessor replay, not code-disjoint verification"
+}

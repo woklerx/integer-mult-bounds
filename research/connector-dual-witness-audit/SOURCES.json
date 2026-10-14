@@ -1,0 +1,13 @@
+{
+  "base": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "predecessor_pr": 1775,
+  "predecessor_head": "b3b03a65d340bfdf2335a850c526eed733b603df",
+  "files": {
+    "research/complex-block-rank-optimum/CERTIFICATE.json": {
+      "head": "b3b03a65d340bfdf2335a850c526eed733b603df",
+      "sha256": "d3ada9ac84a74f72ce9364dd47ee2ab9f02d1a6513df135e81dad11d0e6c6958",
+      "git_blob": "59a9863fa8d823524cd42b6845c548089b6ef694"
+    }
+  },
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32"
+}
