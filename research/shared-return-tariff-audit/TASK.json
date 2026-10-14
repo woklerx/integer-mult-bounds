@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "task_id": "persistent-boundary",
+  "priority_revision": 3,
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "original_card": {
+    "id": "persistent-boundary",
+    "question": "Can a specified pair of consecutive calls eliminate a restoration that the next call reconstructs?",
+    "starting_points": [
+      "research/heterogeneous-owner-assembly/README.md",
+      "certificates/selected-result.json"
+    ],
+    "methods": [
+      "Write typed entry/exit contracts and a contracting multitype recurrence.",
+      "Derive a lower bound for the compulsory transitions of one proposed typed interface."
+    ],
+    "acceptance_gate": "Show actual eliminated work and legal composition; changing a scalar recurrence into a matrix is insufficient.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Find a concrete consecutive-call boundary in the selected review and list its entry/exit obligations.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "Specify two call types and one operation actually removed by composition; derive the normalized recurrence.",
+    "bottleneck_link": "Eliminating compulsory boundary work can lower recursive cost beyond packing gains.",
+    "allowed_variations": [
+      "A two-type pilot or one explicit deferred restoration."
+    ],
+    "scope_change_triggers": [
+      "Rewriting the old scalar recurrence as a matrix without eliminating work."
+    ],
+    "overlap_terms": [
+      "persistent boundary",
+      "deferred restoration",
+      "multitype"
+    ]
+  },
+  "scope_status": "changed",
+  "actual_scope": "Independent selected-source reverse-centre invoice audit plus exact precision-growth break-even frontier; conditional pilot, no actual caller admission.",
+  "scope_change_reason": "Fresh overlap found a directly relevant pending result. Deliberate independently implemented audit adds distinct finite evidence and controls; it does not assert a new physical supplier or repeat the predecessor as an original theorem.",
+  "bottleneck_link": "Strengthens independently reviewable evidence for a named mathematical boundary; no new kappa or complete supplier claimed.",
+  "budget_minutes": 60,
+  "stop_rule": "Stop after the declared exact audit domain, premise controls, optimized replay and source validation.",
+  "outcome": "completed",
+  "evidence": "README.md and deterministic verify.py output",
+  "author": "woklerx with substantial OpenAI Codex assistance",
+  "ai_assistance": "OpenAI Codex derived and implemented this independent audit; no independent human review.",
+  "open_questions": [
+    {
+      "question": "Do actual native tariffs satisfy the guarded saving inequality for an eligible caller pair?",
+      "why_it_matters": "A smaller macro count can still cost more after a precision increase.",
+      "first_step": "Bind common sinks and operators, then instantiate R8, ADD, CLEAR and all additional overhead.",
+      "blocked_by": "Actual caller eligibility and native prefix/precision prices are unproved."
+    }
+  ],
+  "claim_url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1163#discussioncomment-18924424",
+  "selection_nonce": "5a7958ef5670583077f01668feb04d8c"
+}
