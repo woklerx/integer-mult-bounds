@@ -1,0 +1,22 @@
+{
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "source_pr": 1704,
+  "source_head": "7f14aa7285cf10a7be350472fab25a25ef898484",
+  "files": [
+    {
+      "path": "research/bit-two-copy-scatter/CERTIFICATE.json",
+      "sha256": "1f0929270d8da2971f66dede9009a5e6f2d7ca4982d0b17fe30e48331b44e786",
+      "git_blob": "056aab767a0f4ca0e67092f26a7ebe92fe789cc3"
+    },
+    {
+      "path": "research/bit-two-copy-scatter/README.md",
+      "sha256": "78bd4a2f9d9b71edcaa5c4ad14659443252398ad933518af68ccbc0aafcef9f5",
+      "git_blob": "fab25ef22512a408b9da68433e6c9f1e17ca407d"
+    },
+    {
+      "path": "research/r439-bsection-stars-seed01/candidate.json.gz",
+      "sha256": "b452d2c2b0b2a546d1105b1da9769aa78e5c54d6f00e97b30c77e3f54ce445ee",
+      "git_blob": "9a17b4920334878d6c949191f6931bd97126fe3c"
+    }
+  ]
+}

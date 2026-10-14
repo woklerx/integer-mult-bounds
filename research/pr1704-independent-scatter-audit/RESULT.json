@@ -1,0 +1,14 @@
+{
+  "chronology_and_sign_controls": 72,
+  "formal_output_checks": 3128,
+  "matching_partitions": 2620,
+  "optima": 105,
+  "optimum": 120,
+  "pair_blocks": 36,
+  "scatter_adds": [
+    527,
+    407
+  ],
+  "scope": "All pair blocks over arbitrary commutative rings and complete restricted matching census; physical two-copy admission unproved",
+  "status": "PASS_PR1704_INDEPENDENT_SCATTER"
+}

@@ -1,0 +1,24 @@
+{
+  "round": 12,
+  "base_commit": "0b1cccf86e2f5132ed286a26ef0a681a495740ea",
+  "selected_record_sha256": "10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32",
+  "selection_nonce": "9818923f7222eee61a127000c1e309c2",
+  "track": "bit-mechanisms",
+  "task_id": "bit-helper-contract",
+  "scope_status": "changed",
+  "scope": "Intentional independent audit: Required Python3.12 registered replay passes. New source-derived edge-subset enumeration reproduces2620 partitions, optimum120 and105 optima. Formal integer-module replay checks all36 pair blocks,3128 target equations and72 chronological/sign controls.",
+  "reason": "The catalog construction or quantified-lemma route already has a pending result. This round deliberately contributes independent scoped audit evidence; it does not claim to meet the original new-construction or new-uniform-theorem acceptance gate.",
+  "outcome": "completed independent audit",
+  "remaining_obligations": "Independent new checker focuses on scatter boundary and restricted matching census. Whole-word661-column replay is imported upstream validation, not a new implementation. Two physical live COPY slots and native admission remain open.",
+  "open_next_questions": [
+    {
+      "question": "Construct and price a physical two-copy interface preserving temporary lifetimes and precision; the scalar reduction leaves recursive profile unchanged.",
+      "why_it_matters": "Resolve the remaining boundary before supplier adoption.",
+      "first_step": "Inspect the named source boundary and formulate a source-pinned test or invariant.",
+      "blocked_by": "Independent new checker focuses on scatter boundary and restricted matching census. Whole-word661-column replay is imported upstream validation, not a new implementation. Two physical live COPY slots and native admission remain open."
+    }
+  ],
+  "coordination": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1163#discussioncomment-18924424",
+  "ai_assistance": "Substantial OpenAI Codex assistance",
+  "credit": "Ross Richardson PR1704; Sagar Thakrar PR1062; PR967/926, Aaron Wang PR1015, Ross Richardson PR923, DreamingOfClouds PR589, eumemic PR555 and live-copy audit predecessors."
+}
